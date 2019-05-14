@@ -28,12 +28,12 @@ long microsecondsToCentimeters(long microseconds) {
 }
 
 void turnLeft(){
-    analogWrite(9, speed);
+    analogWrite(9, 200);
     delay(1500);
 }
 
 void turnRight(){
-    analogWrite(11, speed);
+    analogWrite(11, 200);
     delay(1500);
 }
 
